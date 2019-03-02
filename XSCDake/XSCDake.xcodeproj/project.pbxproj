@@ -15,6 +15,7 @@
 		811EF671222A3717005EEE47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EF670222A3717005EEE47 /* main.m */; };
 		811EF67B222A3718005EEE47 /* XSCDakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EF67A222A3718005EEE47 /* XSCDakeTests.m */; };
 		811EF686222A3718005EEE47 /* XSCDakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EF685222A3718005EEE47 /* XSCDakeUITests.m */; };
+		811EF696222A3AFE005EEE47 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EF695222A3AFE005EEE47 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		811EF681222A3718005EEE47 /* XSCDakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSCDakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		811EF685222A3718005EEE47 /* XSCDakeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCDakeUITests.m; sourceTree = "<group>"; };
 		811EF687222A3718005EEE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811EF694222A3AFE005EEE47 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		811EF695222A3AFE005EEE47 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		811EF660222A3715005EEE47 /* XSCDake */ = {
 			isa = PBXGroup;
 			children = (
+				811EF693222A3AE5005EEE47 /* Model */,
 				811EF661222A3715005EEE47 /* AppDelegate.h */,
 				811EF662222A3715005EEE47 /* AppDelegate.m */,
 				811EF664222A3715005EEE47 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				811EF687222A3718005EEE47 /* Info.plist */,
 			);
 			path = XSCDakeUITests;
+			sourceTree = "<group>";
+		};
+		811EF693222A3AE5005EEE47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				811EF694222A3AFE005EEE47 /* Person.h */,
+				811EF695222A3AFE005EEE47 /* Person.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				811EF666222A3715005EEE47 /* ViewController.m in Sources */,
 				811EF671222A3717005EEE47 /* main.m in Sources */,
+				811EF696222A3AFE005EEE47 /* Person.m in Sources */,
 				811EF663222A3715005EEE47 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
